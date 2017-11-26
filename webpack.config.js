@@ -6,13 +6,13 @@ var path = require('path');
 module.exports = {
   debug: true,
   devtool: '#eval-source-map',
-
+  
   entry: [
     './src/main'
   ],
 
   output: {
-    path: path.join(__dirname, 'app'),
+    path: path.join(__dirname, '/'),
     publicPath: '/',
     filename: 'dist/bundle.js'
   },
